@@ -1,0 +1,307 @@
+
+.fa-bars{
+    
+    font-size: 200%;
+
+}
+#first{
+    float: right;
+}
+.nav-content{
+    
+    width: 90%;
+    float: left;
+    font-size: 120%;
+}
+.present{
+    padding: 
+}
+
+body{
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 300px;
+    padding: 2%;
+    background-color: lightgray;
+    
+    
+    
+}
+.head{
+    margin: 2% 10% 0;
+    text-align: center;
+    
+    line-height: 0.8rem;
+    font-size: 120%;
+    border: solid 3px white;
+    padding-bottom: 15px;
+    background: -webkit-linear-gradient(top,purple 0%,black 100%);
+    color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    
+}
+q{
+    font-family:cursive;
+    font-size: 80%;
+}
+h1{
+    text-transform: capitalize;
+    
+    text-decoration-line:underline;
+    
+}
+#mob{
+    color: red;
+    text-align: end;
+   
+}
+
+@media screen and (max-width:900px)
+{
+    .present{
+        font-size: 120%;
+    }
+    fa{
+        font-size: 120%;
+    }
+    #mob{
+
+    text-align: center;
+}
+}
+
+#contact-us:hover #mob{
+    transform: scale(1.3,1.3);
+    
+}
+
+.plans img{
+    padding-top: 100px;
+    width:85%;
+    height:200px;
+    margin: 2% 10%
+}
+
+.nav-pills{
+    background-color: black;
+    padding: 3px;
+    margin:0 10%;
+    opacity: 0.7;
+    width:480px;
+    
+}
+
+.india-details div{
+    border: solid 2px ;
+    margin 5px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    background-color: white;
+    
+}
+
+
+.india-details div:hover{
+   
+       background: -webkit-linear-gradient(top, white 0%, red 100%);
+    transform: scale(1.1,1.1);
+
+ 
+}
+
+.india-details div img{
+    
+    width:100%;
+    height: 300px;
+
+}
+.india-details h3{
+    margin-bottom: 4%;
+     
+}
+
+h3{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: maroon;
+    font-variant: small-caps;
+    background: -webkit-linear-gradient(top, white 0%, aqua 100%);
+    font-family: aria;
+    text-decoration-style:dashed;
+    padding: 3px 0;
+}
+.special{
+   background-color: #004FA2; 
+	display: flex;
+    margin: 2%;
+    transition-property: transform;
+    transition-delay: 0s;
+    transition-duration: 0.5;
+    transition-timing-function: linear;
+   
+}
+
+@media screen and (max-width:799px)
+{
+    .special{
+        display:flow-root;
+        margin: 4% 0px; 
+        
+    }
+    .lasimg{
+        padding-top: 2%;
+        
+    }
+}
+
+.special:hover{
+    transform: scale(1.04,1.04)
+    
+}
+.special h3{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.lasimg img{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+    
+    
+}
+
+
+.lasdet{
+    height: 100%;
+    font-family:sans-serif;
+    background-color: #004FA2;
+    color: white;
+    padding: 1%;
+    text-align: justify;
+     
+}
+h4{
+    text-align: center;
+    font-style: italic;
+    border: solid 3px;
+    background-color: maroon;
+    padding: 1%;
+    
+}
+.special a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    position:sticky;
+    bottom: 0%;
+    
+/*    vertical-align: bottom;*/
+        
+}
+
+
+.ticket{
+    color: green;
+    border: solid 1px white;
+    background-color: azure;
+    padding: 2px 4px;
+}
+.ticket:hover{
+    color: red;
+}
+
+@media screen and (min-width:800px)
+{ 
+    
+    .lasdet {
+        font-size: 130%;
+        line-height: 40px;
+        background-color: ;
+    }
+    
+    .lasimg img{
+        display: block;
+        margin: 0 auto;
+   }
+    .lasdet button{
+       margin-top: 4%;
+    }
+}
+footer{
+    border: solid black;
+    background-color: grey;
+    color: white;
+}
+
+h5{
+    margin-left: 25%;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    font-size: 2rem;
+    
+}
+
+footer p{
+    text-align: center;
+    font-size: 110%;
+}
+#insta:hover::after{
+    content: "instagram";
+    color: white;
+}
+#fb:hover::after{
+    content: "facebook";
+    color: white;
+}
+#twitter:hover::after{
+    content: "twitter";
+    color: white;
+}
+#in:hover::after{
+    content: "linkedin";
+    color: white;
+}
+}
+.toll p{
+    text-align: center;
+    font-family:aria;
+    margin-bottom: 5%;
+}
+.fa-instagram{
+    color: darkred;
+}
+.fa-linkedin{
+    color: darkblue;
+}
+.fa-facebook{
+    color: darkblue
+}
+.fa-twitter{
+    color: darkblue
+}
+.mail{
+    text-align: center;
+}
+.fa-envelope{
+    color: orangered;
+    padding: 2px 4px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
